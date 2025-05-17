@@ -1,0 +1,32 @@
+/* Custom styles for Rate Race game */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    transition: transform 0.1s ease, opacity 0.1s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+img {
+    object-fit: cover;
+}
+
+#choices {
+    align-items: stretch;
+}
+
+@media (max-width: 640px) {
+    .max-w-md {
+        width: 90%;
+    }
+}
